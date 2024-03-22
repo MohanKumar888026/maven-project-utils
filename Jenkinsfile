@@ -40,5 +40,7 @@ pipeline {
           stage('Stage-7 : Install') { 
             steps {
                 sh 'mvn package'
-            }
+          }
         }
+    }
+}
