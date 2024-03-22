@@ -4,6 +4,7 @@ pipeline {
          maven 'maven'
          jdk 'java'
     }
+}
     stages {
         }
         stage('Stage-1 : Clean') { 
@@ -41,4 +42,3 @@ pipeline {
                 sh 'mvn package'
             }
         }
-}
