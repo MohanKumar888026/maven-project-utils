@@ -4,6 +4,7 @@ pipeline {
     tools {
          maven 'maven'
          jdk 'java'
+        }
     }
     stages {
         }
@@ -42,5 +43,3 @@ pipeline {
                 sh 'mvn package'
           }
         }
-    }
-}
