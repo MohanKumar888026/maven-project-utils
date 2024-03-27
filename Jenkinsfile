@@ -6,6 +6,11 @@ pipeline {
                 sh 'mvn clean'
             }
         }
+        stage('Stage-2 : Validate') { 
+            steps {
+                sh 'mvn validate'
+            }
+        }
   
     }
 }
